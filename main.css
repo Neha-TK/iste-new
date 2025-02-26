@@ -45,7 +45,17 @@ body::-webkit-scrollbar {
     transform: translateX(2%);
    
 }
-
+.iste-logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    flex: 1;
+    width: 50px; /* Adjust size */
+    height: 50px;
+    background: url('./assets/iste-logo.png') no-repeat center/contain;
+    transform: translateX(2%);
+   
+}
 
 
 .register-btn {
@@ -61,6 +71,14 @@ body::-webkit-scrollbar {
 
 .register-btn:hover {
     color: white;
+}
+
+.reg-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:200px;
+
 }
 
 /* Move menu button to the right */
