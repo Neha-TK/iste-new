@@ -43,7 +43,10 @@ body::-webkit-scrollbar {
     height: 50px;
     background: url('./assets/logo.png') no-repeat center/contain;
     transform: translateX(2%);
+   
 }
+
+
 
 .register-btn {
     font-size: 16px;

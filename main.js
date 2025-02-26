@@ -66,4 +66,3 @@ const targetDate = new Date('2025-03-07T09:00:00').getTime();
   updateCountdown();
   setInterval(updateCountdown, 1000); // Update every second
 
-// counter-end
